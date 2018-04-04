@@ -13,7 +13,7 @@
 
 import torch.nn as nn
 
-# Convolutional Autoencoder with Skip Connections
+# Convolutional Autoencoder
 class CNNAutoencoder(nn.Module):
     def __init__(self):
         super(CNNAutoencoder, self).__init__()
